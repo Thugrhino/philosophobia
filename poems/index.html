@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poems | Philosophobia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="paper-texture">
+    <header class="page-header">
+      <a href="../index.html" class="home-link">← Home</a>
+      <h1>Poems</h1>
+    </header>
+
+    <div class="quote-container">
+      <aside class="quote-nav">
+        <div class="scroll-box">
+        <ul>
+          <li><a href="#" onclick="showPoem(1)" class="nav-link">Poem 1</a></li>
+          <li><a href="#" onclick="showPoem(2)" class="nav-link">Poem 2</a></li>
+          <li><a href="#" onclick="showPoem(3)" class="nav-link">Poem 3</a></li>
+          <li><a href="#" onclick="showPoem(4)" class="nav-link">Poem 4</a></li>
+          <li><a href="#" onclick="showPoem(5)" class="nav-link">Poem 5</a></li>
+          <li><a href="#" onclick="showPoem(6)" class="nav-link">Poem 6</a></li>
+          <li><a href="#" onclick="showPoem(7)" class="nav-link">Poem 7</a></li>
+          <li><a href="#" onclick="showPoem(8)" class="nav-link">Poem 8</a></li>
+          <li><a href="#" onclick="showPoem(9)" class="nav-link">Poem 9</a></li>
+          <li><a href="#" onclick="showPoem(10)" class="nav-link">Poem 10</a></li>
+          
+        </ul>
+        </div>
+      </aside>
+
+      <main class="quote-content">
+        <div class="quote-display">
+          <h2 id="quote-title">Poem 1</h2>
+          <p id="quote-text">
+            <strong>YOU</strong> are the silence between my sighs,<br>
+            The sunset soft behind my eyes.<br>
+            In pages torn, I find your name,<br>
+            A poem written in love and flame.
+          </p>
+        </div>
+
+        <div class="quote-controls">
+          <button onclick="prevPoem()" class="nav-button">← Previous</button>
+          <button onclick="nextPoem()" class="nav-button">Next →</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

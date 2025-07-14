@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosophophobia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="paper-texture">
+        <header>
+            <h1>Welcome to Philosophobia</h1>
+        </header>
+
+        <section class="about">
+            <h2>About NOBUDDY</h2>
+            <p>
+                I'm nobody. I made this website so my thoughts could leave my notes and reach to those who are willing to read it. If you want to complain about some thing then feel free to reach out. If you want to contribute then also feel free of contact. And it's just thoughts nothing like any statements so if you feel offended somehow then it's not my intention so it's you not me.
+            </p>
+        </section>
+
+        <nav class="menu">
+            <a href="quotes/index.html">Quotes</a>
+            <a href="poems/index.html">Poems</a>
+            <a href="Acknowledgement/index.html">Acknowledgement</a>
+            <a href="Randomthoughts/index.html">Random Thoughts</a>
+            <a href="feedback/index.html">Feedback</a>
+            <a href="know-more/index.html">Know more</a>
+        </nav>
+        <div id="visitor-count" class="visitor-box">
+    Total Visitors: <span id="count">Loading...</span>
+</div>
+
+    </div>
+    <script>
+  fetch('https://api.countapi.xyz/hit/philosophophobia.com/visits')
+    .then(res => res.json())
+    .then(res => {
+      document.getElementById('count').innerText = res.value;
+    })
+    .catch(() => {
+      document.getElementById('count').innerText = "unavailable";
+    });
+</script>
+
+</body>
+</html>
