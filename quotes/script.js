@@ -89,16 +89,26 @@ const quotes = {
   88: " Love is not two people gazing at each other, but two people looking ahead together in the same direction. ",
   89: "Like a brilliant new sun rising at dawn, adolescence makes one's entry into a new stage of life.",
   90: "Sun always shines brightly on the other side of the clouds.",
-  91: "",
-  92: "",
-  93: "",
-  94: "",
-  95: "",
-  96: "",
-  97: "",
-  98: "",
-  99: "",
-  100: "",
+  91: "Women's loyalty belongs to their feelings.",
+  92: "More is lost with indecision, Than wrong decision",
+  93: "This time around, I hope I fall in love with sinners, for every saint I've ever loved has abandoned me for their gods.",
+  94: "You don’t observe reality. Reality might be built around your observation.",
+  95: "You Just have to BELIEVE it, to SEE it !",
+  96: "Surrender to the present. Challenge the future.",
+  97: "You don't write truth unless life has tried to kill you first.",
+  98: "Sometimes we have to lose ourselves to find our true selves.",
+  99: "The Life they mock is the life they wanted to live.",
+  100: "Art exists because life is not enough!",
+  101: "You can't demand depth and mock them for drowning.",
+  102: "Universe Doesn't make MISTAKES!",
+  103: "The more honestly you love, the more vulnerable you become. But without vulnerability, love itself is a lie.",
+  104: "“The moment you give someone the power to save you, is the moment they unknowingly become the one who breaks you.”",
+  105: "that true love doesn’t fit into molds. It creates its own.",
+  106: "possibility is the most dangerous and beautiful thing we hold onto. ",
+  107: "“You never lose your fear of death by living—you lose it when something else dies inside you first.”",
+  108: "We don’t pay for love because it’s a debt. We pay because it’s worth everything.",
+  109: "Only someone who's felt invisible themselves learns how to see others so clearly.",
+  110: "To be a man: The ability to live beyond your own life.",
 
 };
 
@@ -174,4 +184,5 @@ function nextQuote() {
     updateActiveNav();
     scrollToActiveLink();
   }
+
 }
