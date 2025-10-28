@@ -15,7 +15,6 @@ Never showed his abyss, to make her enchant.
 
 
 Not perfect as they say she is, 
-Cthey think it should be, 
 But still perfect as it is.
 `,
 
@@ -361,3 +360,4 @@ document.addEventListener('keydown', (e) => {
 
 // Initialize
 updateActiveNav();
+
